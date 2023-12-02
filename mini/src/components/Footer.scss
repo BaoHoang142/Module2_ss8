@@ -1,0 +1,23 @@
+#footer{
+    background-color:#e31837;
+    height: 380px;
+    color: white;
+    margin-top: 30px;
+    #main {
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+    }
+    #bot {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 240px;
+        margin-top: 50px;
+        #icon {
+            display: flex;
+            gap: 30px;
+        }
+
+    }
+}

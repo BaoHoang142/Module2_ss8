@@ -1,0 +1,45 @@
+#listProduct {
+    margin-left: 120px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    #product {
+        width: 400px;
+        height: 750px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.16);
+        #img{
+            width: 400px;
+            height: 600px;
+            
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                 border-radius: 5px;
+                 box-shadow: 1px 12px 10px -4px rgba(0,0,0,0.39);
+
+
+            } 
+        }
+        #text{
+            margin-left: 30px;
+            font-size:20px;
+            font-weight: 600;
+        }
+        #buy {
+            width: 80px;
+            height: 30px;
+            background-color: bisque;
+            border-radius: 6px;
+            margin-left: 30px;
+            border: white;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 700;
+
+        }
+    }
+}
